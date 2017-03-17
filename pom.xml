@@ -33,17 +33,11 @@
 					<attachClasses>true</attachClasses>
 				</configuration>
 			</plugin> 
-<!--			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.0.2</version>
-			</plugin> -->
 			<plugin>
                 <groupId>org.apache.tomee.maven</groupId>
                 <artifactId>tomee-maven-plugin</artifactId>
                 <version>7.0.1</version>
 				<configuration>
-					<!-- <warFile>${project.build.directory}/ROOT.war</warFile> -->
                     <tomeeClassifier>webprofile</tomeeClassifier>
                 </configuration>
 				<executions>
