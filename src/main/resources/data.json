@@ -1,0 +1,15 @@
+{
+"C001" : [ {
+  "category" : "Shopping",
+  "amount" : "300.00"
+}, {
+  "category" : "Dinning",
+  "amount" : "150.00"
+},{
+  "category" : "Travel",
+  "amount" : "1000.00"
+},{
+  "category" : "Misc",
+  "amount" : "50.00"
+} ]
+}
